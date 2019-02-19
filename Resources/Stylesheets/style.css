@@ -1,11 +1,37 @@
+* {
+  padding:0;
+  margin:0;
+}
+
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display:flex;
+  width:100%;
+  z-index:1;
+  position:fixed;
+  border-bottom:1px solid black;
+  align-items:center;
+  justify-content:space-between;
 }
 
-header ul li {
+header div ul li {
   list-style:none;
+  text-decoration:underline;
   display:inline-block;
+}
+
+main {
+  position:relative;
+  top:60px;
+}
+
+.mytimes {
+  color:MediumAquamarine;
+}
+
+.logo {
+  display:inline-flex;
+  align-items:center;
 }
