@@ -4,6 +4,7 @@
 }
 
 header {
+  background-color:white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -27,6 +28,16 @@ main {
   top:80px;
   display:flex;
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
 }
 
 .mytimes {
@@ -45,20 +56,95 @@ main {
 .col-large {
   border: 3px solid black;
   width:630px;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 .col-med {
   border: 3px solid black;
   width:300px;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 .col-small {
   border: 3px solid black;
   width:240px;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 .newslist li {
   list-style:none;
   border-bottom: 1px solid black;
   background-color:WhiteSmoke;
+}
+
+.img-head {
+font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: white;
+}
+
+.big-img-head {
+  font-family: Georgia;
+ font-weight: bold;
+ font-size: 40px;
+ color: white;
+}
+
+/* starting story boxes */
+
+.item {
+  display:block;
+}
+
+/* Left Column */
+
+.L1 {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.L1pic {
+background-image:url("../Pictures/img-story-main.png");
+background-repeat:no-repeat;
+width:629px;
+height:300px;
+}
+
+
+.L2 {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.L3 {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.L3pic {
+background-repeat:no-repeat;
+background-image:url("../Pictures/img-story-2.png");
+width:299px;
+height:300px;
+}
+
+.L2-5 {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.L3-5 {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.L3-5pic {
+  background-repeat:no-repeat;
+  background-image:url("../Pictures/img-story-3.png");
+  width:299px;
+  height:300px;
 }
