@@ -148,3 +148,22 @@ height:300px;
   width:299px;
   height:300px;
 }
+
+/* Center Column */
+
+.C1 {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.C2 {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.C2pic {
+  background-repeat:no-repeat;
+  background-image:url("../Pictures/img-story-1.png");
+  width:299px;
+  height:300px;
+}
